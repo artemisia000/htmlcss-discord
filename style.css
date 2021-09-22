@@ -100,12 +100,17 @@ a{
 
 /*MAIN*/
 
+.clearfix ::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
 section{
+    display: block;
     width: 100%;
     height: 800px;
 }
-
-
 
 .bc-white{
     background-color: #fff;
@@ -113,4 +118,25 @@ section{
 
 .bc-grey{
     background-color: lightgrey;
+}
+
+
+.images{
+    display: inline-block;
+    float: right;
+
+}
+
+.text{
+    display: inline-block;
+    width:40%;
+}
+
+.h-test{
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.images .text{
+    float: left;
 }
