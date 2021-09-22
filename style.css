@@ -16,8 +16,7 @@ header{
 }
 
 .navigation{
-    display: inline-block;
-    
+    display: inline-block;  
     height: 80px;
     width: 20%;
     color: #fff;
@@ -30,9 +29,8 @@ header{
 .logo{
     display: inline-block;
     font-size: 20px;
-    vertical-align: center;
-    padding-right: 50px;
-    
+    text-align: middle;
+    padding-right: 30px;
 
 
 }
@@ -40,7 +38,7 @@ header{
 .nav-menu{
     display: inline-block;
     text-align: center;
-    width: 58%;
+    width: 56%;
 
 
     
@@ -55,7 +53,7 @@ a{
     color: #fff;
     list-style: none;
     text-decoration: none;
-    line-height: 100px;
+    line-height: 80px;
     padding-left: 20px;
     padding-right: 20px;
 }
@@ -66,9 +64,11 @@ a{
     display: inline-block;
     background-color: #fff;
     color: #000;
-    padding: 8px 12px;
-    font-size: 10px;
-    border-radius: 12px;
+    width: 60px;
+    height: 40px;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 10px;
     font-weight: 600;
 
 
@@ -94,7 +94,23 @@ a{
     height: 500px;
     background-image: url(../htmlcss-discord/img/jumbo.png);
     background-size: cover;
-    background-position: center;
-    background-position: ()
+    background-size: center;
     
+}
+
+/*MAIN*/
+
+section{
+    width: 100%;
+    height: 1600px;
+}
+
+
+
+.bc-white{
+    background-color: #fff;
+}
+
+.bc-grey{
+    background-color: lightgrey;
 }
