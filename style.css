@@ -4,27 +4,177 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Be Vietnam Pro', sans-serif;
+    font-family: "Rubik", serif;
+}
+
+/*UTILITIES*/
+.fs-16{
+    font-size: 16px;
 }
 
 
 /*HEADER*/
 
 header{
+    background-image: url(./img/jumbo.png);
     width: 100%;
-    background-color: rgba(0, 132, 255, 0.932);
+    height: 700px;
+    background-size: cover;
 }
+
+.container{
+    width: 70%;
+    margin: 0 auto;
+    
+}
+
+ .clearfix ::after{
+    content: "";
+    display: block;
+    clear: both;
+} 
+
 
 .navigation{
     display: inline-block;  
     height: 80px;
-    width: 20%;
+    width: 100%;
     color: #fff;
+    line-height: 80px;
     text-align: center;
-    
+}
 
+.navigation div ul li {
+    display: inline-block;
 
 }
+
+.navigation div {
+    display: inline-block;
+    line-height: 80px;
+}
+
+.navigation div:nth-child(1) {
+    float: left;
+
+}
+
+
+.navigation div:nth-child(3) {
+    float: right;
+}
+
+
+
+.content-text{
+    text-align: center;
+    color: #fff;
+    width: 50%;
+    margin: auto;
+}
+
+.content-text h1{
+    font-size: 60px;
+    font-weight: 900;
+}
+
+.content-buttons{
+    display: inline-block;
+    text-align: center;
+}
+
+.content-buttons button{
+    float: left;
+}
+
+
+/*BUTTONS*/
+.btn{
+    padding: 10px 15px;
+    border-radius: 25px;
+    font-weight: 600;
+    border: 2px solid currentColor;
+}
+
+.btn{
+    padding: 10px 15px;
+    border-radius: 25px;
+    font-weight: 600;
+    border: 2px solid currentColor;
+}
+
+.btn-white{
+    background-color: #fff;
+    color: #161424;
+    border-color: #fff;
+}
+
+.btn-black{
+    background-color: #161424;
+    color: #fff;
+    border-color: #161424;
+}
+
+/*CONTENT*/
+.content-box{
+    padding: 150px 80px;
+}
+
+.content-box .box:nth-child(1) {
+    float: left;
+}
+
+.content-box .box:nth-child(2) {
+    float: right;
+}
+
+
+/* .box{
+    width: 50%;
+  
+} */
+
+.box-text{
+    width: 25%;
+    text-align: left;
+}
+
+.box-text h1{
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 30px;
+    line-height: 60px;
+}
+
+.box-text p{
+    line-height: 30px;
+    font-weight: 600;
+}
+
+
+
+/*SECTION*/
+section:nth-child(even){
+    background-color: #afaeb8;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .logo{
     display: inline-block;
@@ -58,85 +208,5 @@ a{
     padding-right: 20px;
 }
 
-/*BUTTON*/
-
-.button-small{
-    display: inline-block;
-    background-color: #fff;
-    color: #000;
-    width: 60px;
-    height: 40px;
-    text-align: center;
-    font-size: 15px;
-    border-radius: 10px;
-    font-weight: 600;
 
 
-    
-}
-
-.button-white{
-    
-}
-
-.button-black{
-
-}
-
-.button-blue{
-
-}
-
-/*CONTAINER*/
-
-.container{
-    width: 100%;
-    height: 500px;
-    background-image: url(../htmlcss-discord/img/jumbo.png);
-    background-size: cover;
-    background-size: center;
-    
-}
-
-/*MAIN*/
-
-.clearfix ::after{
-    content: "";
-    display: table;
-    clear: both;
-}
-
-section{
-    display: block;
-    width: 100%;
-    height: 800px;
-}
-
-.bc-white{
-    background-color: #fff;
-}
-
-.bc-grey{
-    background-color: lightgrey;
-}
-
-
-.images{
-    display: inline-block;
-    float: right;
-
-}
-
-.text{
-    display: inline-block;
-    width:40%;
-}
-
-.h-test{
-    font-size: 30px;
-    font-weight: 800;
-}
-
-.images .text{
-    float: left;
-}
